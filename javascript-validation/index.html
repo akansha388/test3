@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="form-container">
+
+<h2>Student Registration</h2>
+
+<form id="studentForm">
+
+<div class="field">
+<input type="text" id="name" placeholder="Student Name">
+<span id="nameErr" class="error"></span>
+</div>
+
+<div class="field">
+<input type="text" id="contact" placeholder="Contact Number">
+<span id="contactErr" class="error"></span>
+</div>
+
+<div class="field">
+<input type="email" id="email" placeholder="Email">
+<span id="emailErr" class="error"></span>
+</div>
+
+<div class="field">
+<input type="password" id="password" placeholder="Password">
+<span id="passErr" class="error"></span>
+</div>
+
+<div class="field">
+<select id="course">
+<option value="">Select Course</option>
+<option>B.Tech</option>
+<option>BCA</option>
+<option>B.Sc</option>
+<option>MCA</option>
+</select>
+<span id="courseErr" class="error"></span>
+</div>
+
+<div class="field">
+<select id="department">
+<option value="">Select Department</option>
+<option>CSE</option>
+<option>IT</option>
+<option>ECE</option>
+<option>ME</option>
+</select>
+<span id="deptErr" class="error"></span>
+</div>
+
+<div class="field">
+<input type="text" id="subject" placeholder="Subject">
+<span id="subjectErr" class="error"></span>
+</div>
+
+<div class="field">
+<select id="year">
+<option value="">Select Year</option>
+<option>1st</option>
+<option>2nd</option>
+<option>3rd</option>
+<option>4th</option>
+</select>
+<span id="yearErr" class="error"></span>
+</div>
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
